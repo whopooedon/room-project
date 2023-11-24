@@ -1,0 +1,11 @@
+CREATE TABLE freeboard_tbl (
+	bno int not null auto_increment,
+	branch_seq int(5) not null,
+	name varchar(12) not null,
+	title_board varchar(50) not null,
+	write_board text not null, 
+	insert_day varchar(20),
+	count_board int,
+	user_ip varchar(30),
+	PRIMARY KEY (bno)
+);
